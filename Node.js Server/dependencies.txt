@@ -1,1 +1,11 @@
-nothing :)
+• Setting Up the Node.js Server
+>> mkdir keylogger-server
+>> cd keylogger-server
+>> npm init -y
+>> npm install express body-parser
+
+• Run the Node.js server:
+>> node server.js
+
+• Check the server logs:
+You should see the keystroke data being printed in the console and appended to the keystrokes.log file.
