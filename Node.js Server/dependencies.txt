@@ -8,6 +8,8 @@ You'll need express and body-parser for handling HTTP requests.
 Global Installation (if applicable): If you prefer to install express globally, you can do so using the -g flag:
 >> npm install -g express
 
+all >> npm install express body-parser mongoose socket.io jsonwebtoken bcryptjs
+
 • Setting Up the Node.js Server
 >> mkdir keylogger-server
 >> cd keylogger-server
