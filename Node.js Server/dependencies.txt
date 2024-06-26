@@ -1,3 +1,13 @@
+• Body Parser
+You'll need express and body-parser for handling HTTP requests.
+>> npm install body-parser
+
+• Install express Module
+>> npm install express
+
+Global Installation (if applicable): If you prefer to install express globally, you can do so using the -g flag:
+>> npm install -g express
+
 • Setting Up the Node.js Server
 >> mkdir keylogger-server
 >> cd keylogger-server
@@ -5,6 +15,8 @@
 >> npm install express body-parser
 
 • Run the Node.js server:
+must have to select the path correctly
+cd C:\Users\black\
 >> node server.js
 
 • Check the server logs:
