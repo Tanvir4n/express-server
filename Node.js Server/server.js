@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
 const port = 3000;
+const ip = '103.146.42.204';
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
@@ -28,5 +29,5 @@ app.post('/', (req, res) => {
 
 // Start the server
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Server listening at http://192.168.1.107:${port}`);
+    console.log(`Server listening at http://${ip}:${port}`);
 });
