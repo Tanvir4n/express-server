@@ -28,6 +28,7 @@ app.post('/', (req, res) => {
 });
 
 // Start the server
-app.listen(port, '0.0.0.0', () => {
+//app.listen(port, '0.0.0.0', () => {
+    app.listen(port, ip, () => {
     console.log(`Server listening at http://${ip}:${port}`);
 });
