@@ -23,6 +23,7 @@ cd C:\Users\black\
 ::Alternative::
 To start the server, you can simply run:
 >> npm start
+This will execute the node server.js command specified in the start script of your package.json.
 
 • Check the server logs:
 You should see the keystroke data being printed in the console and appended to the keystrokes.log file.
