@@ -20,6 +20,9 @@ all >> npm install express body-parser mongoose socket.io jsonwebtoken bcryptjs
 must have to select the path correctly
 cd C:\Users\black\
 >> node server.js
+::Alternative::
+To start the server, you can simply run:
+>> npm start
 
 • Check the server logs:
 You should see the keystroke data being printed in the console and appended to the keystrokes.log file.
